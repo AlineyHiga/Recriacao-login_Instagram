@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+body{
+    width: 100px;
+    min-height: 100vh;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.instagram-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 60%;
+
+
+}
+.instagram-phone img{
+    height:50rem ;
+}
+.instagram-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    margin: 0;
+    width: 120%;
+    min-height: 34rem;
+}
+.group{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffff; 
+    width: 600%;
+    
+    padding: 1.3rem 0;
+    border-style: groove;
+    border:1px solid rgb(192, 192, 192);
+    margin: 5px;
+    
+}
+.img2 img{
+    margin: 4px;
+    height: 90%;
+}
+.group-2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffff; 
+    width: 600%;
+    height: 5rem;
+    padding: 1.3rem 0;
+    border-style: groove;
+    border:1px solid rgb(192, 192, 192);
+    
+    
+}
+.enter-box{
+    margin: 2px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    background-color: hsl(0, 0%, 100%); 
+    width: 20rem;
+    height: 3rem;
+    padding: 1.3rem 0;
+    border-style: groove;
+    border:1px solid rgb(192, 192, 192); 
+    color:#8d8b8b  ; 
+}
+.enter{
+    border: none;
+    color: white;
+    padding: 10px 8.5rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: aquamarine;
+    border-radius: 4px;
+}
+.facebook-entry img{
+    width: 1rem;
+    height: auto;
+}
+.password-retriver{
+    color: #8d8b8b;
+    font-size: small;
+}
+.download{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width:30rem;
+}
+.download img{
+    height: 35px;
+}
